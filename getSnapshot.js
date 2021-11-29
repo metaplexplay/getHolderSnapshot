@@ -2,7 +2,7 @@ const anchor = require("@project-serum/anchor");
 const fs = require("fs");
 const web3 = require("@solana/web3.js");
 const connection = new anchor.web3.Connection(
-  "https://solana-api.projectserum.com"
+  "https://api.devnet.solana.com"
 );
 
 if (process.argv.length < 4) {
